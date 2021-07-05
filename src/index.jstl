@@ -1,0 +1,14 @@
+<div class="room"></div>
+<div class="wrapper">
+    <div class="map"></div>
+
+    <div class="rules-wrapper">
+        <div class="title">Room Effects</div>
+        <div class="challenge card-area"></div>
+        <div class="title">Reward</div>
+        <div class="reward card-area"></div>
+        <div class="title">Story</div>
+        <div class="desc card-area"></div>
+    </div>
+
+</div>

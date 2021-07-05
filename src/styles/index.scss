@@ -1,0 +1,66 @@
+@import '_reset.scss';
+
+$var: white;
+
+body {
+  background-color: $var;
+  font-family: 'Nanum Pen Script', arial;
+  text-align: center;
+}
+
+.wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 8px solid #000;
+  display: inline-block;
+  background-image: url("/images/tile.jpg");
+  padding: 10px;
+}
+
+.map {
+  white-space: nowrap;
+  border: 2px solid #000;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.room {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.empty,
+.filled {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  line-height: 2.1;
+  font-weight: bold;
+}
+
+.empty {
+  background-color: #c8c8c8;
+}
+
+.card-area {
+  background: white;
+  padding: 5px 10px;
+  text-align: left;
+  border-radius: 4px;
+}
+
+.area {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  margin: 10px 0 0 0;
+}
