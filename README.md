@@ -1,4 +1,4 @@
-![Example of horde gameplay](https://robertpage.github.io/horde/images/example.png)
+![Example of enter the dungeon map](https://robertpage.github.io/enter-the-dungeon/images/example.png)
 
 # Enter the Dungeon: A cooperative or solo way to play magic with your cards
 
