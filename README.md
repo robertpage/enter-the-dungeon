@@ -1,14 +1,10 @@
-# Static Site Base
+![Example of horde gameplay](https://robertpage.github.io/horde/images/game-demo.jpg)
 
-This is the start for my web projects that tend to be static sites. This uses:
-- 11ty to generate static files
-- esbuild to compile JS/TS, and minify
-- light-server to run dev server
-- SCSS rarely ever used outside of imports
-- PostCSS css post processing
--- CSSnano minification
--- Autoprefixer prefixer
+# Enter the Dungeon: A cooperative or solo way to play magic with your cards
 
-## To Run
-npm install
-npm run dev
+## [DEMO](https://robertpage.github.io/enter-the-dungeon/)
+
+This is a way to play Magic the Gathering solo or cooperatively with your friends using the dungeon mechanic. This is very hastely put together so don't expect much. There is a known bug where click on a room sometimes takes multiple clicks. What are you going to do 🤷‍♀️.
+
+
+If people are interested I in actually using this I can spruce it up and add mechanics, settings, more encounters, etc.
