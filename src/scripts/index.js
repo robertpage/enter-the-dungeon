@@ -17,7 +17,7 @@ const levelVisited = [1];
 
 const ENOUNTER_BIAS = 2;
 let dungeon = new Dungeon(dunegeonConfig);
-const CHARACTER = `<img class="character-img" src="/images/knight-banner.svg">`;
+const CHARACTER = `<img class="character-img" src="./images/knight-banner.svg">`;
 
 window.onload = () => {
   dungeon.generate();
