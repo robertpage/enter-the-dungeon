@@ -17,7 +17,7 @@ const levelVisited = [1];
 
 const ENOUNTER_BIAS = 2;
 let dungeon = new Dungeon(dunegeonConfig);
-const CHARACTER = `<svg height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h512v512h-512z" fill="none"/><path d="m256 23.57-16.1 48.86h32.2zm-183 66.86v15.97h366v-15.97zm48 33.97v354.6l135-105 135 105v-354.6zm87 37h96l-32 80 80-32v96l-80-32 32 80h-96l32-80-80 32v-96l80 32zm48 235.4-23 17.9v73.7h46v-73.7z" stroke="#e5e4e4" stroke-width="4"/></svg>`;
+const CHARACTER = `<svg style="width:25px; height:25px" height="25" viewBox="0 0 512 512" width="25" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h512v512h-512z" fill="none"/><path d="m256 23.57-16.1 48.86h32.2zm-183 66.86v15.97h366v-15.97zm48 33.97v354.6l135-105 135 105v-354.6zm87 37h96l-32 80 80-32v96l-80-32 32 80h-96l32-80-80 32v-96l80 32zm48 235.4-23 17.9v73.7h46v-73.7z" stroke="#e5e4e4" stroke-width="4"/></svg>`;
 
 window.onload = () => {
   dungeon.generate();
